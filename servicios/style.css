@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #c4d600;
+}
+
+
+#home {
+    width: 2%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#instagram {
+    width: 2%;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+}
+
+#tituloEncabezado {
+    position: absolute;
+    font-size: 150%;
+    top: 5%;
+    left: 5%;
+    margin: 0;
+}
+
+#facebook {
+    width: 2%;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
