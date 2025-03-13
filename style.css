@@ -1,10 +1,20 @@
 #imagen {
-    size-adjust: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+
+#imagen img {
+    max-width: 100%; 
+    max-height: 100%;
+}
+
 body {
     background-color: hsl(65, 100%, 42%);
 }
 #encabezado {
+    flex: auto;
     background-color: hsl(65, 99%, 36%);  
     padding: 1%;
 }
